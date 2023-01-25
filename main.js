@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', event => {
     let guess = parseInt(input.value, 10);
     numGuesses += 1;
     let message;
-    if (Number.isNaN(guess)) {
+    if (Number.isNaN(guess) || guess > 100) {
       message = "That's not a valid number!  Guess again.";
     } else if (guess > answer) {
       message = `The answer is lower than ${String(guess)}!`;
