@@ -3,8 +3,8 @@ html, body {
   margin: 0;
   font: normal 16px Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #16997c;
-  background: #5bccb3;
+  color: #797D81;
+  background: #cecece;
 }
 
 main {
@@ -12,12 +12,12 @@ main {
   max-width: 450px;
   padding: 20px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #C9B7AD;
   box-sizing: border-box;
 }
 
 h1 {
-  color: #CC183E;
+  color: #982649;
 }
 
 fieldset {
@@ -42,17 +42,17 @@ input[type="submit"] {
   width: 100%;
   padding: 15px 0;
   font: normal 20px Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #cecece;
   text-shadow: 1px 1px 5px rgba(80, 80, 80, .8);
-  border: 1px solid #91112C;
-  box-shadow: 0 0 1px 1px #780e24;
+  border: 1px solid #982649;
+  box-shadow: 0 0 1px 1px #982649;
   border-radius: 11px;
-  background: linear-gradient(to bottom, #CC183E 0%, #780E24 100%);
+  background: linear-gradient(to bottom, #cc415f 0%, #982649 100%);
 }
 
 input[disabled] {
-  background: #780E24;
+  background: #702636;
   box-shadow: none;
 }
 
-a { color: #cc183e; }
+a { color: #982649; }
